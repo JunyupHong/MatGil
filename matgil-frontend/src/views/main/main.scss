@@ -1,0 +1,33 @@
+.main-wrapper {
+    width: 100vw;
+    .header {
+        width: 100%;
+        height: 240px;
+        background: rgb(112, 150, 255);
+        display: flex;
+        align-items: flex-end;
+        padding: 24px 60px;
+        .main-title {
+            color: #eee;
+        }
+        .big {
+            font-size: 60px;
+        }
+        .small {
+            font-size: 24px;
+        }
+    }
+    .content-zone {
+        margin: auto;
+        width: 60%;
+        height: 100vh;
+        padding: 24px 0;
+        position: relative;
+        .select-zone {
+            position: absolute;
+            top: 32px;
+            right: 0px;
+            display: flex;
+        }        
+    }
+}
