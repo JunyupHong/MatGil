@@ -38,9 +38,15 @@
                                     class="tuple"
                                 >
                                     <div class="item flex-2">{{ r.rname }}</div>
-                                    <div class="item flex-4">{{ r.address }}</div>
-                                    <div class="item flex-2">{{ getTelFormat(r.telephone) }}</div>
-                                    <div class="item flex-5">{{ r.fname.join(', ') }}</div>
+                                    <div class="item flex-4">
+                                        {{ r.address }}
+                                    </div>
+                                    <div class="item flex-2">
+                                        {{ getTelFormat(r.telephone) }}
+                                    </div>
+                                    <div class="item flex-5">
+                                        {{ r.fname.join(', ') }}
+                                    </div>
                                     <!-- <div class="item flex-1">{{  }}</div>
                                     <div class="item flex-1">11</div>
                                     <div class="item flex-1">11</div> -->
