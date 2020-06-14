@@ -28,6 +28,78 @@
             top: 32px;
             right: 0px;
             display: flex;
-        }        
+        }
+    }
+    .content-table-zone {
+        width: 100%;
+        .content-table-title {
+            font-size: 24px;
+            font-weight: 600;
+            margin: 12px 0 24px 0;
+        }
+        .content-table {
+            border: solid 2px #444;
+            .attribute-zone {
+                display: flex;
+                border-bottom: double 3px #999;
+                .attribute {
+                    text-align: center;
+                    height: 40px;
+                    padding: 0 12px;
+                    line-height: 40px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    border-right: solid 1px #ccc;
+                }
+                .flex-1 {
+                    flex: 1;
+                }
+                .flex-2 {
+                    flex: 2;
+                }
+                .flex-3 {
+                    flex: 3;
+                }
+                .flex-4 {
+                    flex: 4;
+                }
+                .flex-5 {
+                    flex: 5;
+                }
+            }
+            .tuple-zone {
+                max-height: 720px;
+                overflow: auto;
+                .tuple {
+                    display: flex;
+                    .item {
+                        border-right: solid 1px #ccc;
+                        border-bottom: solid 1px #ccc;
+                        padding: 6px 12px;
+                        // max-height: 66px;
+                        // overflow: hidden;
+                        // text-overflow: ellipsis;
+                    }
+                    .flex-1 {
+                        flex: 1;
+                    }
+                    .flex-2 {
+                        flex: 2;
+                    }
+                    .flex-3 {
+                        flex: 3;
+                    }
+                    .flex-4 {
+                        flex: 4;
+                    }
+                    .flex-5 {
+                        flex: 5;
+                    }
+                }
+            }
+            .tuple-zone::-webkit-scrollbar {
+                display: none;
+            }
+        }
     }
 }
